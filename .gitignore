@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Env / Build
+.env
+.venv/
+dist/
+build/
+
+data/
+!data/README.md
+
+outputs/*.pt
+outputs/*.log
+
+!outputs/compare_results.csv
+!outputs/compare_bar_acc.png
+!outputs/compare_bar_loss.png
+!outputs/train_curves_food101.png

@@ -1,0 +1,4 @@
+model,dataset,val_acc,val_loss,checkpoint
+ResNet18,Food101,0.8305,0.6199,outputs\best_resnet18_food101.pt
+ResNet50,Food101,0.8963,0.4757,outputs\best_resnet50_food101.pt
+SimpleCNN,CIFAR10,0.8195,0.5174,outputs\best_model_simple_cnn.pt

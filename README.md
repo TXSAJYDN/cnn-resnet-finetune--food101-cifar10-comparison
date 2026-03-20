@@ -3,7 +3,7 @@ An end‑to‑end image classification project that spans data preparation, trai
 
 - SimpleCNN baseline (trained on CIFAR‑10)
 - ResNet18 / ResNet50 fine‑tuning (trained on Food‑101; AMP, Cosine+Warmup, Label Smoothing, augmentation)
-Comparison scripts and plots are provided for transparent reporting in your resume and GitHub.
+Comparison scripts and plots are provided 
 
 ## Highlights
 - Training pipeline: AMP (mixed precision), backbone freezing/unfreezing, per‑group learning rates, Cosine schedule + Warmup, Label Smoothing

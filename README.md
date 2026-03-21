@@ -187,7 +187,7 @@ python compare_experiments.py --plot
   - outputs/compare_bar_acc.png
   - outputs/compare_bar_loss.png
   - outputs/train_curves_food101.png (if logs are present)
-## Example Results (Replace with your final numbers)
+## Example Results 
 - Food‑101 (ResNet18): val_acc ≈ 0.8305, val_loss ≈ 0.6199
 - Food‑101 (ResNet50): val_acc ≈ 0.8963, val_loss ≈ 0.4757
 - CIFAR‑10 (SimpleCNN): e.g., val_acc ≈ 0.76+ (update after training)

@@ -190,7 +190,7 @@ python compare_experiments.py --plot
 ## Example Results 
 - Food‑101 (ResNet18): val_acc ≈ 0.8305, val_loss ≈ 0.6199
 - Food‑101 (ResNet50): val_acc ≈ 0.8963, val_loss ≈ 0.4757
-- CIFAR‑10 (SimpleCNN): e.g., val_acc ≈ 0.76+ (update after training)
+- CIFAR‑10 (SimpleCNN): val_acc ≈ 0.8195, val_loss ≈ 0.5174
 ## Troubleshooting
 - Device‑side assert (CUDA): usually caused by mismatch between dataset label count and model output dimension (e.g., using a 5‑class head to evaluate 10‑class data). The comparison script forces the current dataset’s class count when rebuilding SimpleCNN and prunes mismatched weights to avoid crashes.
 - OOM: reduce --batch-size , enable --amp , or use --accumulate-steps (supported in ResNet script).
